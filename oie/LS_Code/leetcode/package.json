@@ -16,7 +16,10 @@
   "categories": [
     "Other"
   ],
-
+  "activationEvents": [
+    "onCommand:vscode-leetcode.login",
+    "onCommand:vscode-leetcode.submit"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
