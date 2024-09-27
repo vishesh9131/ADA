@@ -1,5 +1,5 @@
 {
-  "name": "vscode-leetcode",
+  "name": "vslcode",
   "displayName": "VSCode LeetCode",
   "description": "Integrate LeetCode directly into VSCode. Login, browse problems, write and submit solutions seamlessly.",
   "version": "0.0.1",
