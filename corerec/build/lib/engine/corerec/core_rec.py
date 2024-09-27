@@ -14,10 +14,10 @@ from async_ddp import *
 # This is the Core of your model
 from engine.models import *
 from engine.Tmodel import GraphTransformerV2
-from engine.cr_pkg.gat_conv import *
-from engine.cr_pkg.gcn_conv import *
-from engine.cr_pkg.han_conv import *
-from engine.cr_pkg.sage_conv import *
+from engine.corerec.cr_pkg.gat_conv import *
+from engine.corerec.cr_pkg.gcn_conv import *
+from engine.corerec.cr_pkg.han_conv import *
+from engine.corerec.cr_pkg.sage_conv import *
 
 
 # In Emergence this will act as Organs to your model
@@ -26,8 +26,8 @@ from engine.predict import predict, explainable_predict
 from engine.metrics import jaccard_similarity, adamic_adar_index, aaj_accuracy
 
 # Importing dataloaders,dataset
-from engine.cr_utility.dataloader import *
-from engine.cr_utility.dataset import *    #dont call this its not working rn use GraphDataset ookk
+from engine.corerec.cr_utility.dataloader import *
+from engine.corerec.cr_utility.dataset import *    #dont call this its not working rn use GraphDataset ookk
 
 # Importing Boosters AKA Optimizers (Note: _funtional and _init_ is commented)
 from engine.cr_boosters.adam import *

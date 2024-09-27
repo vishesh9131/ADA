@@ -1,0 +1,1 @@
+{"version":3,"file":"languageMapper.js","sourceRoot":"","sources":["../../src/utils/languageMapper.ts"],"names":[],"mappings":";;AACA,kCAUC;AAXD,8BAA8B;AAC9B,SAAgB,WAAW,CAAC,gBAAwB;IAChD,MAAM,OAAO,GAA8B;QACvC,YAAY,EAAE,YAAY;QAC1B,YAAY,EAAE,YAAY;QAC1B,QAAQ,EAAE,SAAS;QACnB,MAAM,EAAE,MAAM;QACd,8BAA8B;KACjC,CAAC;IAEF,OAAO,OAAO,CAAC,gBAAgB,CAAC,IAAI,SAAS,CAAC;AAClD,CAAC"}

@@ -1,4 +1,4 @@
-from common_import import *
+from engine.common_import import *
 
 
 def draw_graph(adj_matrix, top_nodes, recommended_nodes=None):

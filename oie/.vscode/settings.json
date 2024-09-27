@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "deque": "cpp",
+        "iomanip": "cpp",
+        "list": "cpp",
+        "ostream": "cpp",
+        "string": "cpp",
+        "__locale": "cpp",
+        "bitset": "cpp",
+        "istream": "cpp",
+        "locale": "cpp",
+        "sstream": "cpp",
+        "__config": "cpp",
+        "iostream": "cpp",
+        "vector": "cpp"
+    }
+}

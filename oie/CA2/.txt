@@ -1,0 +1,9 @@
+Develop a program that applies Prim's Algorithm 
+to find the Minimum Spanning Tree of the electrical
+grid, ensuring that all cities are connected with 
+the minimum total construction cost. The solution
+should help the power company determine the most
+cost-efficient way to build the grid.
+
+///
+cost of constructing power line vary from 5 to 100 

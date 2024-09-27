@@ -1,0 +1,8 @@
+object:
+app that is a simple bread inverntpry managment system 
+where we tend to keep the recent bread in last section of shelf and recnt in front 
+
+
+ object:
+ preceed n number of values from tghe user and build a bST of that ,
+ now ask for the type of traersal user wanna perform sp treverse the tree as per the guven input.

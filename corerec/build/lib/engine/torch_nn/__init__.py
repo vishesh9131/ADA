@@ -1,4 +1,22 @@
 # mypy: allow-untyped-defs
+import warnings
+
+def safe_import(module_name):
+    try:
+        __import__(module_name)
+    except ImportError as e:
+        warnings.warn(f"vishesh : Failed to import {module_name}: {e}")
+
+# List of submodules to import
+submodules = [
+    'engine.torch_nn.modules.module',
+    'engine.torch_nn.intrinsic.modules.fused',
+    # Add other submodules here
+]
+
+for submodule in submodules:
+    safe_import(submodule)
+
 from torch.nn.parameter import (
     Parameter as Parameter,
     UninitializedBuffer as UninitializedBuffer,

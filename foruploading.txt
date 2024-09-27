@@ -1,0 +1,14 @@
+# ###############################################################################################################
+#                                      
+#                    CODE TO UPLOAD THE VERSION TO CONTROL THE COREREC VERSION  
+#
+# ###############################################################################################################
+
+
+build pkg: python setup.py sdist bdist_wheel
+
+upload pkg :
+    check bridge api :  pip install twine 
+    upload pkg : twine upload dist/*
+
+    
